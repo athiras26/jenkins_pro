@@ -1,1 +1,1 @@
-../testbench/fsm_tb.v
+../tbench/fsm_tb.v

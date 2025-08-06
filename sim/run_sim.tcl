@@ -75,14 +75,14 @@ set_msg_config -suppress -severity "INFO"
 #========================================================================
 #read_verilog "design.v"
 #add_files "top_tb.sv"
-set fp [open "files.f" r]
+set fp [open "./files.f" r]
    while {[gets $fp line] >= 0} {
    add_files -fileset sources_1 -norecurse $line
    #sim_1 for the folder name
    }
 close $fp
 
-set fp [open "files_tb.f" r]
+set fp [open "./files_tb.f" r]
    while {[gets $fp line] >= 0} {
    add_files -fileset sim_1 -norecurse $line
    #sim_1 for the folder name

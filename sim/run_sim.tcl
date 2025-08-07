@@ -1,6 +1,6 @@
 #==============================================================================
 # Tosil Systems Pvt Ltd
-# new run
+# new run tcl
 # run_build.tcl
 #
 # Synthesis, P&R, and bitfile generation script.
